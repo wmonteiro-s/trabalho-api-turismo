@@ -1,0 +1,32 @@
+{
+  "name": "trabalho-api-turismo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wmonteiro-s/trabalho-api-turismo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/wmonteiro-s/trabalho-api-turismo/issues"
+  },
+  "homepage": "https://github.com/wmonteiro-s/trabalho-api-turismo#readme",
+  "dependencies": {
+    "@prisma/client": "^6.9.0",
+    "bcrypt": "^6.0.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "prisma": "^6.9.0",
+    "sqlite3": "^5.1.7",
+    "zod": "^3.25.49"
+  }
+}
